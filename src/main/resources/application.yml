@@ -4,7 +4,9 @@ spring:
             preferred-json-mapper: gson
     data:
         mongodb:
-            uri: mongodb://localhost:27017/test_one
+            database: test_one
+            port: 27017
+            host: mongo
 
 jwt:
     expiration-time: 300000000

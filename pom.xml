@@ -93,7 +93,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>nosql-app-docker</finalName>
+		<finalName>nosql</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
